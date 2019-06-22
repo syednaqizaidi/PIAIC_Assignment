@@ -1,0 +1,47 @@
+print ("========= MARKSHEET ==========")
+
+print ("")
+
+Name = input("Name: ")
+print ("")
+FName = input("Father Name: ")
+print ("")
+RollNumber = input("Roll Number: ")
+print ("")
+Year = input("Passing Year: ")
+
+print ("")
+
+Subject1 = int (input("Enter Marks of English:    "))
+print ("")
+Subject2 = int (input("Enter Marks of Urdu:       "))
+print ("")
+Subject3 = int (input("Enter Marks of Physics:    "))
+print ("")
+Subject4 = int (input("Enter Marks of Math:       "))
+print ("")
+Subject5 = int (input("Enter Marks of Chemistry:  "))
+
+sum = (Subject1 + Subject2 + Subject3 + Subject4 + Subject5)
+avg = (Subject1 + Subject2 + Subject3 + Subject4 + Subject5) / 5
+
+print ("")
+
+print ("Total Marks:", sum)
+
+print ("")
+
+print ("Percentage:", avg)
+
+print ("")
+
+if (avg >= 90):
+    print ("Grade: A")
+elif (avg >= 80):
+    print ("Grade: B")
+elif (avg >= 70):
+    print ("Grade: C")
+elif (avg >= 60):
+    print ("Grade: D")
+else:
+    print ("Grade: F")
