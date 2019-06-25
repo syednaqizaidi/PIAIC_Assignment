@@ -1,0 +1,7 @@
+Radius = input("Input Radius: ")
+
+CalculateRadius = float(Radius) * float(Radius)
+
+Area = 3.141592654 * CalculateRadius
+
+print("Area of Circle with radius", Radius, "is", Area)
